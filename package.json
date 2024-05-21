@@ -1,0 +1,40 @@
+{
+    "name": "com.luminous.unity-test-package",
+    "displayName": "Lumious Test",
+    "version": "0.0.1",
+    "unity": "2022.3",
+    "description": "This is a test package.",
+    "keywords": [
+      "blam"
+    ],
+    "dependencies": {
+      "com.unity.xr.management": "4.4.0",
+      "com.unity.xr.legacyinputhelpers": "2.1.2",
+      "com.unity.inputsystem": "1.6.3"
+
+    },
+    "samples": [
+      {
+        "displayName": "Basic Example",
+        "description": "Basic sample showing how to Use Flow.",
+        "path": "Samples~/Controller"
+      },
+      {
+        "displayName": "Meshing Subsystem Feature",
+        "description": "Shows a teapot mesh generated from native mesh subsystem with physics baked in background.",
+        "path": "Samples~/MeshingFeature"
+      }
+    ],
+    "_upm": {
+      "changelog": "v0.0.1 init of package."
+    },
+    "upmCi": {
+      "footprint": "5ba13d2282567a2bdddcfa5b4585a9802e080f32"
+    },
+    "documentationUrl": "luminous-docs.scrollhelp.site/",
+    "repository": {
+      "url": "https://github.com/Luminous-Group/com.luminous.unity-test-package.git",
+      "type": "git",
+      "revision": ""
+    }
+  }
